@@ -38,7 +38,7 @@ Android平台实现数据存储的基本方式：
 (2)在反编译流程中，更直接。
 
 ##### DEX字节码
-Dalvik虚拟机运行Dalvik字节码，由java字节码转换而来，又称为” Dalvik汇编语言”，是Dalvik指令集组成的代码，Dalvik指令集是Dalvik虚拟机为自己专门设计的一套指令集，严格说它不属于正式语言。我们来看一下它对方法的定义：
+Dalvik虚拟机运行 Dalvik 字节码，由java字节码转换而来，又称为” Dalvik汇编语言”，是Dalvik指令集组成的代码，Dalvik指令集是Dalvik虚拟机为自己专门设计的一套指令集，严格说它不属于正式语言。我们来看一下它对方法的定义：
 
 `invoke-virtual {p0, v2, v3},`
 `Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;`
